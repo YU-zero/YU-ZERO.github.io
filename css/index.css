@@ -158,7 +158,7 @@
     display: block;
     width: 264px;
     height: 348px; 
-    padding-right:135px;
+    padding-right:136px;
     margin-top: 50px;
 }
 
@@ -220,7 +220,7 @@
     margin: 0 auto;
 }
 .footp1{
-    width: 450px;
+    width: 235px;
     margin: 0 auto;
 }
 
@@ -245,8 +245,11 @@
 }
 
 .m-img-wrapper img{
+    float: left;
     width: 375px;
     height: 296px;
+    padding: 10px;
+    margin: 0 auto;
 }
 
 /*.m-img-wrapper img:hover{
