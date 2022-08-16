@@ -239,20 +239,21 @@
 .m-img-wrapper{
     width: 1200px;
     height:600px;
+    overflow: hidden;
     margin: 0 auto;
     
 }
 
 .m-img-wrapper img{
-    width: 395px;
+    width: 375px;
     height: 296px;
 }
 
-.m-img-wrapper img:hover{
+/*.m-img-wrapper img:hover{
     box-shadow: 5px 5px 20px rgba(0, 0, 0, .5);
     border: 1px solid transparent;
 
-}
+}*/
 
 /* 设置脚步*/
 .foot2{
