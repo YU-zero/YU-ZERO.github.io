@@ -222,17 +222,21 @@
 .footp1{
     width: 235px;
     margin: 0 auto;
+    
 }
 
 .foot h3{
     font-size: 36px;
     font-weight: 600;
     color: black;
+    text-align: center;
 }
+
 .foot p{
     font-size: 16px;
     font-weight: 500;
     color: #6b7280;
+    text-align: center;
 }
 
 /* 设置8图片容器*/
@@ -244,19 +248,24 @@
     
 }
 
-.m-img-wrapper img{
+.m-img-wrapper .ad li{
+    position: relative;
+}
+.m-img-wrapper .ad li{
     float: left;
     width: 375px;
     height: 296px;
-    padding: 10px;
+    overflow: hidden;
+    padding: 12px;
     margin: 0 auto;
+
 }
 
-/*.m-img-wrapper img:hover{
+.m-img-wrapper img:hover{
     box-shadow: 5px 5px 20px rgba(0, 0, 0, .5);
     border: 1px solid transparent;
 
-}*/
+}
 
 /* 设置脚步*/
 .foot2{
