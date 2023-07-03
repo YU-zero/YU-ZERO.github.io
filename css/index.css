@@ -274,37 +274,51 @@
 
 }
 
-/* 设置脚步*/
-.foot2{
-    width: 950px;
-    height: 84px;
+/* 设置脚步介绍容器*/
+.foot2-wrapper{
+    margin-top: 50px;
+    width: 100%;
+    height:200px ;
+    overflow: hidden;
+    margin: 50px,0px auto;
+    background-color:#126C99;
+}
 
-    margin: 80px auto;
-    margin-bottom: 20px;
+.get {
+    width: 100%;
+    text-align: center;
+
 }
-.foot2 h3{
-   
-    font-size: 36px;
+.foot2-wrapper .get h3{
+    font-size: 26px;
     font-weight: 600;
-    color: black;
+    padding: 15px 205px;
+    color: #fff; 
 }
-.footh3{
-    width: 235px;
-    margin: 0 auto;
-}
-.foot2 p{
+
+.foot2-wrapper p{
     font-size: 16px;
     font-weight: 500;
-    left: 300px;
-    color: #6b7280;
+    margin: 12px 0 0 ;
+    color: #fff; 
 }
-.footp{
-    width: 500px;
+
+/* 设置底部导航*/
+.navf-wrapper{
+    margin-top: 50px;
+    width: 100%;
+    height:80px ;
+    overflow: hidden;
     margin: 0 auto;
+    background-color:#126C99;
+}
+
+.navf a{
+    color: #fff;
 }
 
 
-/* 设置表单容器大小*/
+/* 设置表单容器大小
 .form{
     width: 448px;
     height:400px ;
@@ -334,18 +348,18 @@
     width: 366px;
     height: 98px;  
 }
-/*设置发送按钮*/
+/*设置发送按钮
 .send input{
     color: white;
     background-color: #11A8D5;
     font-size: 16px;
 }
 .send input:hover{
-    /*设置阴影部分*/
+    /*设置阴影部分
     box-shadow: 0 0 10px rgba(0, 0, 0, .3);
 
     color: orange;
-}
+}*/
 
 
 
